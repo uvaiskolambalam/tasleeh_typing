@@ -1,0 +1,24 @@
+.HomeContainer{
+    /* padding: ; */
+    display: grid;
+    grid-template-columns: 18rem auto ;
+    height: 95vh;
+    /* background-color: red; */
+    
+}
+.HomeInvoiceContainer{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    /* background-color: red; */
+    /* background-color: red; */
+    max-height: 100vh;
+    overflow: scroll;
+    
+    
+    
+}
+.HomeInvoiceContainer::-webkit-scrollbar{
+    display: none;
+}

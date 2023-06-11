@@ -1,0 +1,16 @@
+
+.Company{
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    /* gap: 1rem; */
+}
